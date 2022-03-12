@@ -1,0 +1,19 @@
+/* Font */
+@font-face 
+{
+    font-family: 'Raleway-Bold';
+    src: url('../font/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Raleway-Medium';
+    src: url('../font/Raleway-Medium.ttf') format('Truetype');
+}
+
+/* Initial declaration */
+*
+{
+    box-sizing: border-box;
+}
+
