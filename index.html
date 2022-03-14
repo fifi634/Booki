@@ -4,15 +4,19 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        
+        <!-- CSS reset -->
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylsheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <!-- Fontawesome icon CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+        <!-- CSS files -->
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="css/theme.css">
         <link rel="stylesheet" href="css/state.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/form.css">
 
         <title>Booki</title>
     </head>
@@ -31,8 +35,16 @@
         </header>
         
         <main class="layout-container">
-            <h1 class="title">Hébergements à Marseille</h1>
-            <p>Plus de 500 logements son disponnible dans cette ville</p>
+            <div>
+                <h1 class="title">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+                <form method="post" action="">
+                    <i class="fa-solid fa-location-dot form-icon"></i>
+                    <input class="form-text" type="search" name="city-search" placeholder="Entrer la ville souhaité" aria-label="Dans quelle ville voulez-vous votre logement ?" />
+                    <button class="form-button" type="submit">Rechercher</button>
+                </form>
+            </div>
+
         </main>
         
         <footer class="layout-container">
