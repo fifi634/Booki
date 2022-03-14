@@ -1,3 +1,9 @@
+.menu-container
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
 .layout-container
 {
     width: 100%;
@@ -6,10 +12,10 @@
 }
 
 /* Smartphone */
-@media all and (max-width: 768px) 
+@media all and (max-width: 768px)
 {
     .layout-container
     {
-        padding: 0;
-    }    
+        padding: 0 20px;
+    }
 }

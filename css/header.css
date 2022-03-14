@@ -6,7 +6,7 @@ header
 .header-logo
 {
     display: block;
-    padding: 20px 0 0 0px;
+    padding: 20px 0 0 50px;
     float: left;
     width: auto;
     height: 70px;
@@ -25,11 +25,6 @@ header
     width: 150px;
     padding-top: 50px;
     text-align: center;
-}
-
-.menu-item:hover
-{
-    color: var(--primary-color);
 }
 
 .menu-item-is-active
