@@ -3,7 +3,7 @@
     display: none;
 }
 
-.search-form
+.search-form-box
 {
     display: flex;
     margin-bottom: 30px;
@@ -53,6 +53,11 @@
         display: none;
     }*/
 
+    .search-form-box
+    {
+        margin: 30px 0;
+    }
+    
     .form-mobile-button
     {
         display: block;

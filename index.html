@@ -13,10 +13,11 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="css/theme.css">
-        <link rel="stylesheet" href="css/state.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/module/form.css">
+        <link rel="stylesheet" href="css/module/filter.css">
+        
 
         <title>Booki</title>
     </head>
@@ -39,12 +40,38 @@
             <h1 class="title form-title-mobile">Trouvez votre hébergement <br/> pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
 
-            <form method="post" action="" class="search-form">
+            <form method="post" action="" class="search-form-box">
                 <i class="fa-solid fa-location-dot form-icon"></i>
                 <input class="form-text title-small" type="search" name="city-search" placeholder="Entrer la ville souhaité" aria-label="Dans quelle ville voulez-vous votre logement ?" />
                 <button class="form-desktop-button title-small" type="submit">Rechercher</button>
                 <button class="form-mobile-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
+
+            <div class="filter-box">
+                <h2 class="title-small filter-title">Filtres</h2>
+                <div class="all-item-box">
+                    <div class="filter-item-box">
+                        <i class="fa-solid fa-money-bill-wave icon-filter"></i>
+                        <a href="#" class="item-filter title-small">&#201conomique</a>
+                    </div>
+                    <div class="filter-item-box">
+                        <i class="fa-solid fa-child icon-filter"></i>
+                        <a href="#" class="item-filter title-small">Familial</a>
+                    </div>
+                    <div class="filter-item-box">
+                        <i class="fa-solid fa-heart icon-filter"></i>
+                        <a href="#" class="item-filter title-small">Romantique</a>
+                    </div>
+                    <div class="filter-item-box">
+                        <i class="fa-solid fa-dog icon-filter"></i>
+                        <a href="#" class="item-filter title-small">Animaux autorisés</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bloc-info">
+                <i class="fa-solid fa-info icon-info"></i>
+                <p>Plus de 500 logements sont disponnibles dans cette ville</p>
+            </div>
         </main>
         
         <footer class="layout-container">
