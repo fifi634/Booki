@@ -23,28 +23,28 @@
 
     <body>
         <header class="menu-container">
-            <a href="/index.html" >
-                <img src="/images/Booki.png" alt="Bienvenue sur Booki" class="header-logo"/>
+            <a href="index.html" >
+                <img src="images/Booki.png" alt="Bienvenue sur Booki" class="header-logo"/>
             </a>
             <nav>
                 <ul class="menu-top">
-                    <li class="menu-item menu-item-is-active"><a href="/index.html">Hébergements</a></li>
+                    <li class="menu-item menu-item-is-active"><a href="index.html">Hébergements</a></li>
                     <li class="menu-item"><a href="#">Activités</a></li>
                 </ul>
             </nav>
         </header>
         
         <main class="layout-container">
-            <div>
-                <h1 class="title">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-                <form method="post" action="">
-                    <i class="fa-solid fa-location-dot form-icon"></i>
-                    <input class="form-text" type="search" name="city-search" placeholder="Entrer la ville souhaité" aria-label="Dans quelle ville voulez-vous votre logement ?" />
-                    <button class="form-button" type="submit">Rechercher</button>
-                </form>
-            </div>
+            <h1 class="title form-title-desktop">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <h1 class="title form-title-mobile">Trouvez votre hébergement <br/> pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
 
+            <form method="post" action="" class="search-form">
+                <i class="fa-solid fa-location-dot form-icon"></i>
+                <input class="form-text title-small" type="search" name="city-search" placeholder="Entrer la ville souhaité" aria-label="Dans quelle ville voulez-vous votre logement ?" />
+                <button class="form-desktop-button title-small" type="submit">Rechercher</button>
+                <button class="form-mobile-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
         </main>
         
         <footer class="layout-container">
@@ -71,6 +71,5 @@
                 </ul>
             </div>
         </footer>
-
     </body>
 </html>
