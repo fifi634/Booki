@@ -1,7 +1,6 @@
 /* General */
 .menu-container, .layout-container
 {
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -10,11 +9,36 @@
     padding: 0 50px;
 }
 
-/* Smartphone */
-@media all and (max-width: 768px)
+.search-result-container
+{
+    max-width: 870px;
+    width: 75%;
+}
+
+.popular-container
+{
+    min-width: 410px;
+    max-width: 615px;
+
+}
+
+/* Tablet and Smartphone */
+@media all and (max-width: 992px)
 {
     .layout-container
     {
-        padding: 0 20px;
+        padding: 0;
     }
+
+    .popular-container
+    {
+        min-width: none;
+        max-width: none;
+    }
+
+    .search-result-container
+    {
+        width: 100%;
+    }
+
 }

@@ -27,13 +27,6 @@ header
     text-align: center;
 }
 
-.menu-item-is-active
-{
-    color: var(--primary-color);
-    font-weight: 600;
-    border-top: 2px solid var(--primary-color);
-}
-
 /* Smartphone */
 @media all and (max-width: 768px)
 {
@@ -63,13 +56,6 @@ header
         padding: 15px;
         border-bottom: 3px solid var(--background-color);
         flex: 1 0 0;
-    }
-
-    .menu-item-is-active
-    {
-        color: var(--primary-color);
-        border-top: none;
-        border-bottom: 3px solid var(--primary-color);
     }
 }
 

@@ -1,0 +1,53 @@
+/* General */
+a:hover
+{
+    color: var(--primary-color);
+    transition: 0.3s;
+}
+
+/* Menu */
+
+.menu-item-is-active
+{
+    color: var(--primary-color);
+    font-weight: 600;
+    border-top: 2px solid var(--primary-color);
+}
+
+@media all and (max-width:768px)
+{
+    .menu-item-is-active
+    {
+        color: var(--primary-color);
+        border-top: none;
+        border-bottom: 3px solid var(--primary-color);
+    }
+}
+
+/* Filter */
+.item-filter:hover
+{
+    background-color: var(--secondary-color);
+    transition: 0.4s;
+    border: none;
+}
+
+/* Search Result */
+.card:hover 
+{
+    background-color: var(--secondary-color) ;
+    transition: 0.3s;
+}
+
+.card:hover h3
+{
+    color: var(--primary-color);
+    transition: 0.3s;
+}
+
+.card:hover img
+{
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+

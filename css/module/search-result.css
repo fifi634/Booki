@@ -1,0 +1,151 @@
+/* Client search section */
+
+.all-search-result-box
+{
+    display: flex;
+}
+
+.search-result
+{
+    background-color: var(--background-color);
+    margin: 25px 40px 50px 0;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+
+
+.search-result-box
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    display: block;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px 20px 20px 0px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #e3e3e3;
+}
+
+.card-image
+{
+    position: relative;
+    height: 100px;
+    width: 240px;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-image img
+{
+    position: absolute;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-detail
+{
+    margin-left: 10px;
+    line-height: 10px;
+}
+
+.note
+{
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+.no-star
+{
+    color: var(--background-color);
+}
+
+
+/* Popular section */
+
+.popular-card-modif
+{
+    display: flex;
+    height: 150px;
+    width: 350px;
+}
+
+.popular-image-modif
+{
+    height: 140px;
+    width: 150px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.popular-image-modif img
+{
+    width: 100%;
+}
+
+.popular-detail-modif
+{
+    margin: 0 20px;
+}
+
+.popular-detail-modif h3
+{
+    line-height: 18px;
+    margin: 10px 0 10px 0;
+  
+}
+
+.popular-detail-modif p
+{
+    margin: 0;
+}
+
+.popular-detail-modif .note
+{
+    position:relative;
+    top: 50px;
+    left: 0px;
+}
+
+/* Tablet and Smartphone */
+@media all and (max-width:992px)
+{
+    .all-search-result-box
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .mobile-popular-modif
+    {   
+        width: 100%;
+        margin: 0;  
+        border-radius: 0;
+    }
+
+    .search-result
+    {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .search-result h2, .card
+    {
+        
+    }
+}
+
+/* Smartphone */
+@media all and (max-width: 768px)
+{
+
+}

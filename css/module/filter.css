@@ -5,15 +5,18 @@
     
 }
 
+.filter-box h2
+{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
 .all-item-box
 {
     display: flex;
     flex-direction: row;
-}
-
-.filter-title
-{
-    margin-right: 30px;
 }
 
 .filter-item-box
@@ -54,7 +57,7 @@
     display: flex;
 }
 
-.icon-info
+.bloc-info i
 {
     display: flex;
     justify-content: center;
@@ -68,12 +71,6 @@
     border-radius: 15px;
 }
 
-.item-filter:hover
-{
-    background-color: var(--secondary-color);
-    transition: 0.4s;
-    border: none;
-}
 
 /* Smartphone */
 @media all and (max-width: 768px)
