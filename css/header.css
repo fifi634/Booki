@@ -15,7 +15,6 @@ header
 /* Menu */
 .menu-top
 {
-    display: flex;
     justify-content: flex-end;
 }
 

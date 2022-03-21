@@ -1,11 +1,13 @@
 footer
 {
-    display: flex;
     background-color: var(--background-color);
+    margin-top: 20px;
 }
 
-.footer-box
+.bloc-footer
 {
+    width: 1920px;
+    margin: 50px;
     flex: 1 1 auto;
 }
 

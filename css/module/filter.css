@@ -1,34 +1,27 @@
-.filter-box
+.bloc-filter
 {
-    display: flex;
     flex-wrap: wrap;
-    
 }
 
-.filter-box h2
+.bloc-filter h2
 {
-    display: flex;
     align-items: center;
     margin-right: 30px;
-
 }
 
-.all-item-box
+.bloc-all-item
 {
-    display: flex;
     flex-direction: row;
 }
 
-.filter-item-box
+.bloc-filter-item
 {
-    display: flex;
     margin: 10px;
     align-items: center; 
 }
 
 .icon-filter
 {
-    display: flex;
     border: 1px solid var(--secondary-color);
     background-color: var(--secondary-color);
     height: 50px;
@@ -42,7 +35,6 @@
 
 .item-filter
 {
-    display: flex;
     align-items: center;
     border: 2px solid #d9d9d9;
     height: 50px;
@@ -52,12 +44,7 @@
     z-index: 0;
 }
 
-.bloc-info
-{
-    display: flex;
-}
-
-.bloc-info i
+.icon-info
 {
     display: flex;
     justify-content: center;
@@ -71,19 +58,22 @@
     border-radius: 15px;
 }
 
+.search-result-info
+{
+    align-items: center;
+}
+
 
 /* Smartphone */
 @media all and (max-width: 768px)
 {
-    .filter-box
+    .box-filter
     {
-        display: flex;
         flex-direction: column;
     }
 
-    .all-item-box
+    .box-all-item
     {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }

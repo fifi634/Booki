@@ -1,42 +1,61 @@
-/* General */
-.menu-container, .layout-container
+.layout-menu, .layout-main
 {
-    margin: 0 auto;
+    max-width: 1460px;
+    margin: auto;
 }
 
-.layout-container
+.layout-main
 {
     padding: 0 50px;
 }
 
-.search-result-container
+.layout-search-result
 {
-    max-width: 870px;
-    width: 75%;
+    width: 60%;
+    min-width: 900px;
 }
 
-.popular-container
+.layout-popular
 {
-    min-width: 410px;
-    max-width: 615px;
+    width: 30%;
+    min-width: 420px;
+}
 
+.layout-activity
+{
+    width: 100%;
+}
+
+.layout-footer
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* Small Screen */
+@media all and (max-width:1440px)
+{
+    .layout-search-result
+    {
+        width: 100%;
+        min-width: none;
+    }
+    .layout-popular
+    {
+        width: 100%;
+        min-width: none;
+    }
 }
 
 /* Tablet and Smartphone */
 @media all and (max-width: 992px)
 {
-    .layout-container
+    .layout-main
     {
-        padding: 0;
+        padding: 20px;
     }
 
-    .popular-container
-    {
-        min-width: none;
-        max-width: none;
-    }
-
-    .search-result-container
+    .layout-search-result
     {
         width: 100%;
     }

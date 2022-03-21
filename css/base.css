@@ -1,10 +1,7 @@
-/* Box sizing */
 *
 {
     box-sizing: border-box;
 }
-
-/* General */
 
 body 
 {
@@ -27,6 +24,11 @@ ul
     padding: 0;
 }
 
+strong
+{
+    font-weight: 600;
+}
+
 .title
 {
     font-family: Raleway, sans-serif;
@@ -43,7 +45,7 @@ ul
     color: #000000;
 }
 
-strong
+.flex
 {
-    font-weight: 600;
+    display: flex;
 }
