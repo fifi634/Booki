@@ -17,21 +17,31 @@ footer
 .menu-footer
 {
     line-height: 30px;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
 }
 
 
 /* Smartphone */ 
 @media all and (max-width: 768px)
 {
-    footer
+    .footer-frame
     {
         flex-direction: column;
     }
 
+    .footer-heading-marge
+    {
+        margin-top: 30px;
+    }
+
     .bloc-footer
     {
-        margin-top: 50px;
-        padding: 0 30px;
+        margin: 15px; 
+        padding: 0 5%;
+    }
+
+    .menu-footer
+    {
+        margin: 20px 0;;
     }
 }

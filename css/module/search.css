@@ -62,3 +62,37 @@
         display: none;
     }
 }
+
+/* Very Small Screen */
+@media all and (max-width: 350px)
+{
+    .searchForm-text
+    {
+        width: 100%;
+    }
+
+    .searchForm-icon
+    {
+        margin: auto;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .searchForm-button-mobile
+    {
+        display: none;
+    }
+
+    .searchForm-button-desktop
+    {
+        display: block;
+        margin: auto;
+        width: 100%;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .popular-note-modif
+    {
+        display: none;
+    }
+}

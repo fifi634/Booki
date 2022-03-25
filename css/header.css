@@ -25,6 +25,7 @@ header
     width: 150px;
     padding-top: 50px;
     text-align: center;
+    font-size: 16px;
 }
 
 /* Tablet */
@@ -49,8 +50,7 @@ header
 
     .header-logo
     {
-        padding: 20px 0 0 40px;
-        margin: auto;
+        margin: 0 auto 20px auto;
         float: none;
     }
 

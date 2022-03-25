@@ -139,6 +139,11 @@
     height: 100%;
 }
 
+.popular-note-modif
+{
+    margin-bottom: 5px;
+}
+
 
 /* Small Screen */
 @media all and (max-width: 1460px)
