@@ -1,19 +1,23 @@
 footer
 {
     background-color: var(--background-color);
-    margin-top: 20px;
+}
+
+.footer-frame
+{
+    padding: 0 20% 0 0;
+    justify-content: space-between;
 }
 
 .bloc-footer
 {
-    width: 1920px;
-    margin: 50px;
-    flex: 1 1 auto;
+    padding: 40px;
 }
 
 .menu-footer
 {
     line-height: 30px;
+    margin: 20px 0 20px 0;
 }
 
 
@@ -23,5 +27,11 @@ footer
     footer
     {
         flex-direction: column;
-    }  
+    }
+
+    .bloc-footer
+    {
+        margin-top: 50px;
+        padding: 0 30px;
+    }
 }

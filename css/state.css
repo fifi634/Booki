@@ -1,22 +1,23 @@
-/* General */
 a:hover
 {
     color: var(--primary-color);
     transition: 0.3s;
 }
 
-/* Menu */
 
-.menu-item-is-active
+/* Menu */
+.menu-itemIsActive
 {
     color: var(--primary-color);
     font-weight: 600;
     border-top: 2px solid var(--primary-color);
 }
 
+
+/* Smartphone menu */
 @media all and (max-width:768px)
 {
-    .menu-item-is-active
+    .menu-itemIsActive
     {
         color: var(--primary-color);
         border-top: none;
@@ -24,28 +25,35 @@ a:hover
     }
 }
 
+
 /* Filter */
-.item-filter:hover
+.filter-item:hover
 {
     background-color: var(--secondary-color);
     transition: 0.4s;
     border: none;
 }
 
+
 /* Search Result */
-.card:hover 
+.card:hover,
+.activity-card:hover,
+button:hover
 {
     background-color: var(--secondary-color) ;
     transition: 0.3s;
 }
 
-.card:hover h3
+.card:hover h3,
+.activity-card:hover .activity-title,
+button:hover
 {
     color: var(--primary-color);
     transition: 0.3s;
 }
 
-.card:hover img
+.card:hover img,
+.activity-card:hover img
 {
     filter: grayscale(1);
     transition: 0.3s;
