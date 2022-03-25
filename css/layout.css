@@ -1,0 +1,59 @@
+/* .layout-menu,  */
+.layout-main
+{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.layout-searchResult
+{
+    width: 63%;
+    min-width: 900px;
+}
+
+.layout-popular
+{
+    width: 34%;
+    min-width: 420px;
+}
+
+.layout-activity
+{
+    width: 100%;
+}
+
+
+/* Small Screen */
+@media all and (max-width:1480px)
+{
+    .layout-main
+    {
+        padding: 0 2%;
+    }
+
+    .layout-searchResult
+    {
+        width: 100%;
+        min-width: initial;
+    }
+    .layout-popular
+    {
+        width: 100%;
+        min-width: initial;
+    }
+}
+
+
+/* Tablet and Smartphone */
+@media all and (max-width: 992px)
+{
+    .layout-main
+    {
+        padding: 0;
+    }
+
+    .layout-search
+    {
+        padding: 20px;
+    }
+}

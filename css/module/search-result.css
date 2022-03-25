@@ -1,0 +1,241 @@
+/* Hébergement à Marseille */
+.allResult
+{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.searchResult
+{
+    padding: 3%;
+    background-color: var(--background-color);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    margin: 2% 0 2% 0;
+}
+
+.linkMore
+{
+    margin-top: 3%;
+}
+
+
+.searchResult-bloc
+{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.searchResult-bloc a
+{
+  width: 30%;
+}
+
+.card
+{
+    position: relative;
+    height: auto;
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px 20px 20px 0;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #e3e3e3;
+    flex: 1 1 auto;
+}
+
+.host-image-frame
+{
+    height: 110px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-image-adapt
+{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-detail
+{  
+    line-height: 22px;
+    padding: 4% 0 0 4%;
+}
+
+.note
+{   
+    position: relative;
+    color: var(--primary-color);
+    font-size: 12px; 
+    bottom: 0px;
+}
+
+.noStar
+{
+    color: var(--background-color);
+}
+
+
+/* Popular section */
+.popular-result
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-title-bloc
+{
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+}
+
+.popular-title-bloc .fas
+{
+    position: absolute;
+    right: 0;
+}
+
+.popular-card-modif
+{
+    height: 150px;
+    width: 410px;
+}
+
+.popular-card-modif .card-detail
+{
+    position: relative;
+    flex-direction: column;
+    padding-right: 5%;
+}
+
+.popular-card-modif .note
+{
+    position: absolute;
+}
+
+.popular-image-frame
+{
+    height: 140px;
+    width: 150px;
+    border-radius: 20px 0px 0px 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.popular-image-frame .card-image-adapt
+{
+    height: 100%;
+}
+
+.popular-note-modif
+{
+    margin-bottom: 5px;
+}
+
+
+/* Small Screen */
+@media all and (max-width: 1460px)
+{
+    .allResult
+    {
+        flex-direction: column-reverse;
+    }
+    
+    .popular-bloc-modif
+    {
+        margin-left: 0;
+    }
+
+    .host-card-smallScreen
+    {
+        width: 100%;
+        margin: 5% 5% 5% 0;
+        padding: 2%;
+    }
+
+    .host-image-adapt-smallScreen
+    {
+        top: 0%;
+        width: 150%;
+    }
+}
+
+
+/* Tablet */
+@media all and (max-width: 992px)
+{
+    .mobile-host-modif
+    {
+        background-color: white;
+    }
+
+    .mobile-host-modif h2
+    {
+        padding: 15px 0 0 1%;
+    }
+
+    .searchResult
+    {
+        border-radius: 0;
+    }
+
+    .searchResult-bloc
+    {
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+
+    .host-image-adapt-smallScreen
+    {
+        top: 50%;
+        width: 100%;
+    }
+
+    .popular-title-bloc
+    {
+        padding: 30px 0 8px 1%;
+    }
+}
+
+
+/* SmartPhone */
+@media all and (max-width: 768px)
+{
+    .searchResult-bloc a
+    {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .host-image-adapt-smallScreen
+    {
+        top: 0%;
+        width: 100%;
+    }
+}
+
+
+/* Very small screen */
+@media all and (max-width: 450px)
+{
+    .popular-card-verySmallScreen
+    {
+        height: 150px;
+        max-width: 350px;
+        min-width: 250px;
+        width: 100%;
+    }
+}

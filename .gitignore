@@ -1,0 +1,11 @@
+# ressources and models received
+DW_P2-Ressources_Booki_FR/
+
+#cutting
+Decoupage.odg
+
+#Fichiers cachés
+.*.*
+
+#dossier vscode
+.vscode/

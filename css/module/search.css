@@ -1,0 +1,98 @@
+.searchForm
+{
+    margin: 20px 0 30px 0;
+    flex-wrap: wrap;
+    
+}
+
+.searchForm-icon
+{
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 0 0 15px;
+}
+
+.searchForm-text
+{
+    border: solid 1px var(--background-color);
+    padding: 0 20px;
+}
+
+.searchForm-button-desktop
+{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+}
+
+.searchForm-button-mobile
+{
+    display: none;
+}
+
+
+/* Smartphone */
+@media all and (max-width: 768px)
+{
+    .searchForm-text
+    {
+        flex: 1 1 auto;
+        padding: 10px;
+    }
+    
+    .searchForm-button-mobile
+    {
+        display: block;
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        height: 50px;
+        width: 50px;
+        border-radius: 15px 15px 15px 15px;
+        margin: 0 0 0 -10px;
+    }
+
+    .searchForm-button-desktop
+    {
+        display: none;
+    }
+}
+
+/* Very Small Screen */
+@media all and (max-width: 350px)
+{
+    .searchForm-text
+    {
+        width: 100%;
+    }
+
+    .searchForm-icon
+    {
+        margin: auto;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .searchForm-button-mobile
+    {
+        display: none;
+    }
+
+    .searchForm-button-desktop
+    {
+        display: block;
+        margin: auto;
+        width: 100%;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .popular-note-modif
+    {
+        display: none;
+    }
+}
