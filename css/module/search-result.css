@@ -239,3 +239,12 @@
         width: 100%;
     }
 }
+
+/* Very very small screen */
+@media all and (max-width: 350px)
+{
+    .popular-note-modif
+    {
+        display: none;
+    }
+}

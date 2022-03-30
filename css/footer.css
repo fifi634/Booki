@@ -3,18 +3,18 @@ footer
     background-color: var(--background-color);
 }
 
-.footer-frame
+.footer-arrangement
 {
     padding: 0 20% 0 0;
     justify-content: space-between;
 }
 
-.bloc-footer
+.footer-bloc
 {
     padding: 40px;
 }
 
-.menu-footer
+.footer-menu
 {
     line-height: 30px;
     margin: 20px 0;
@@ -24,7 +24,7 @@ footer
 /* Smartphone */ 
 @media all and (max-width: 768px)
 {
-    .footer-frame
+    .footer-arrangement
     {
         flex-direction: column;
     }
@@ -34,13 +34,13 @@ footer
         margin-top: 30px;
     }
 
-    .bloc-footer
+    .footer-bloc
     {
         margin: 15px; 
         padding: 0 5%;
     }
 
-    .menu-footer
+    .footer-menu
     {
         margin: 20px 0;;
     }
